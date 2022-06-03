@@ -1,0 +1,23 @@
+.dogContainer{
+    border:1px solid black;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.likes{
+    opacity: 0;
+    background-color: azure;
+    position: absolute;
+    right: 0;
+}
+
+.dogContainer:hover .likes{
+    opacity: 0.75;
+}
+
+.dogpic{
+    width: 200px;
+    height: 200px;
+    object-fit: fill;
+}

@@ -1,0 +1,10 @@
+.breed{
+    border: 1px red solid;
+    border-radius: 5px;
+    margin-top: 2px;
+}
+
+.data{
+    margin: 3px;
+    color: blue;
+}
